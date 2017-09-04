@@ -1,16 +1,3 @@
-title: a start job running dev-disk-by解决
-date: 2017/5/21 9:29
-update: 2017/5/21 9:29
-comments: true
-categories:
-  - Linux
-
-tags:
-  - Linux
-  - swap
-  - fstab
-  - a start job running dev-disk-by
----
 最近开机的时候总是会出现一句话
 
 > s start job running dev-disk-by.....

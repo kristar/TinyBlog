@@ -1,14 +1,3 @@
-title: Linux下使用iconv批量转换GBK文件为UTF-8编码
-date: 2017/5/16 21:27
-comments: true
-categories:
-  - Shell Command Line
-tags:
-  - find
-  - iconv
-  - Linux
-  - Shell Command
----
 # 起因
 
 最近想使用brackets(一个web开发IDE), 但是提示仅支持UTF-8编码, 但是有一个项目是从windows复制到Linux下的, 所以都是GBK编码, 于是在网上找到下面方法批量转换文件的字符集编码

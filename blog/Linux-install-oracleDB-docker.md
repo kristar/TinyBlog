@@ -1,14 +1,3 @@
-title: 使用Docker在Linux下部署Oracle Database
-date: 2017/6/1 00:27
-comments: true
-categories:
-  - DataBase
-tags:
-  - Oracle
-  - Linux
-  - DataBase
-  - Docker
----
 Linux上通过Docker运行Oracle Database
 
 由于Oracle DataBase在Linux上很难安装, 所以不想折腾的我使用Docker来部署Oracle Database在Linux上

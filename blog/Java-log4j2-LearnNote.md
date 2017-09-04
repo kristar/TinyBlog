@@ -1,11 +1,3 @@
-title: log4j2-LearnNote
-date: 2017/06/22 01:43
-comments: true
-categories:
-  - Java
-tags:
-  - log4j2
----
 # 简单例子
 
 **手动导包**

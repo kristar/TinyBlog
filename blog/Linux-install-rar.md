@@ -1,13 +1,3 @@
-title: Linux安装RAR
-date: 2017/5/16 20:44
-update: 2017/5/16 20:59
-comments: true
-categories:
-  - Linux
-tags:
-  - Linux
-  - rar
----
 # 安装rarlinux
 
 在Debian或者Ubuntu下面，你可以通过下面命令来安装unrar

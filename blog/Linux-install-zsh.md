@@ -1,12 +1,3 @@
-title: Linux安装zsh
-date: 2017/06/15 10:35
-comments: true
-categories:
-  - Linux
-tags:
-  - Shell
-  - oh-my-zsh
----
 # 安装zsh
 
 ```shell

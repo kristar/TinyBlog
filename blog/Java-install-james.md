@@ -1,13 +1,3 @@
-title: Linux搭建Apache James邮件服务器
-date: 2017/6/10 01:55
-comments: true
-categories:
-  - Linux
-tags:
-  - Linux
-  - Apache James
----
-
 # 前提工作
 
 ## 下载Apache James Server

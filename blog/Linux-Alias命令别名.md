@@ -1,13 +1,3 @@
-title: Linux Alias命令别名
-date: 2017/5/16 21:27
-comments: true
-categories:
-  - Shell Command Line
-tags:
-  - alias
-  - Linux
-  - Shell Command
----
 我地有时候需要为Linux Shell命令设置别名，咁样可以好方便咁打出命令。
 
 例如当输入ll的时候就执行ls -l

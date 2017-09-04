@@ -1,12 +1,3 @@
-title: Gparted-Resize-Parted
-date: 2017/06/19 02:40
-comments: true
-categories:
-  - Linux
-tags:
-  - Gparted
-  - LVM
----
 之前一直用的是Debian+Windows 10双系统, 最近终于找齐了在Linux上开发所需要的各种软件, 而且已经差不多半年没有使用Windows啦, 最主要原因是128G的SSD分配给两个系统不太够用. 最终决定删除Windows, 然后调整分区, 让Linux独占所有硬盘空间.
 
 # 格式化Windows相关的分区

@@ -1,13 +1,3 @@
-title: find命令使用
-date: 2017/5/16 21:27
-comments: true
-categories:
-  - Shell Command Line
-tags:
-  - find
-  - Linux
-  - Shell Command
----
 在Linux下面找一些文件或者批量修改一些文件使用find命令很方便。
 
 语法：find [path…] [expression]

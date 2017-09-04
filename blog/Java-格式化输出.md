@@ -1,11 +1,3 @@
-title: Java格式化输出
-date: 2017/5/16 21:35
-comments: true
-categories:
-  - Java
-tags:
-  - Java
----
 有一次在写Java后台时需要将一个整形例如1变成01的字符串
 
 在String类中提供String.format

@@ -1,15 +1,3 @@
-title: Linux安装VirtualBox
-date: 2017/5/16 20:44
-update: 2017/5/16 20:59
-comments: true
-categories:
-  - Linux
-  - Virtual Box
-tags:
-  - Linux
-  - rar
----
-
 参考[Debian Wiki](https://wiki.debian.org/VirtualBox#Debian_9_.22Stretch.22)
 
 # 1. 添加Oracle Virtual的源到/etc/apt/sources.list.d

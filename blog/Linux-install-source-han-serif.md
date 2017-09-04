@@ -1,14 +1,3 @@
-title: Linux安装思源宋体
-date: 2017/5/20 12:37
-update: 2017/5/20 12:37
-comments: true
-categories:
-  - Linux
-tags:
-  - Linux
-  - 思源宋体
-  - source-han-serif
----
 # 下载Source-han-serif
 思源宋体是Google和Adobe联合制作的, 但命名不是统一, Adobe称为Source-han-serif, 而Google归类为Noto系列
 

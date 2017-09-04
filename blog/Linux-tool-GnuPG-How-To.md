@@ -1,13 +1,3 @@
-title: GnuPG-How-To
-date: 2017/07/04 00:00
-comments: true
-categories:
-  - Linux
-tags:
-  - linux
-  - GnuPG
-  - gpg
----
 # 概念
 
 ## 非对称加密
