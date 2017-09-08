@@ -62,13 +62,6 @@ $ sudo pacmna -S fcitx-configtool # 图形化配置工具
 *你可以查看 `fcitx-diagnose` 的错误信息*
 
 编辑 /etc/locale.gen, 取消 zh_CN.UTF-8 UTF-8 一行的注释
-
-> ...
-> \#zh_CN gbk
-> zh_CN.UTF-8 UTF-8
-> \#zh_TW.UTF-8 UTF-8
-> ...
-
 保存退出后执行下面命令生成 locale
 
 ```shell
