@@ -1,4 +1,8 @@
 # Manjaro 安装后配置笔记
+参考:
+1. [manjaro 配置小记](www.bijishequ.com/detail/361065?p=)
+2. [Arch Linux Wiki Fcitx](https://wiki.archlinux.org/index.php/Fcitx)
+3. [Arch Linux Wiki Locale](https://wiki.archlinux.org/index.php/Locale)
 
 **你可以先安装 `vim` 再进行下面步骤, 皆因我不太会用 `nano`**
 
