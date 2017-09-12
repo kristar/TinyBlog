@@ -9,3 +9,10 @@
 5. 再次 `push` 但是这次密码填你刚刚复制的 token
 
 *认证信息会保存在 ~/.git-credentials 文件中*
+
+# 修改 git 的默认编辑器
+通常提交的时候使用的是 `git commit -m "message"`
+但是这种方式使得提交的信息并不是很详细, 如果我们不加 `-m` 选项的话就会打开 git
+的默认编辑器, 通常是 `nano`, 但我的是提示 `vi` 命令找不到, 所以我想替换成 `vim`
+1. 方法一: 直接修改 `~/.gitconfig` 文件, 在 `[core]` 下面加上 `editor=vim`
+2. 方法二: 使用命令 `git config --global core.editor vim` 直接修改
