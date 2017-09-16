@@ -60,7 +60,9 @@
 # mysql -u root -p
 mysql>
 Enter password: // 输入刚刚的临时密码
-
+# 这时你发现做不了任何操作 You must reset your password using ALTER USER statementbefore executing this statement
+# 重置root密码
+mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'NEW_PASSWORD';
 ```
 
 
