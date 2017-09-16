@@ -46,7 +46,7 @@
 # bin/mysqld --initialize --user=mysql # MySQL 5.7.6 and up
 # bin/mysql_ssl_rsa_setup              # MySQL 5.7.6 and up
 # chown -R root .
-# chown -R mysql data mysql-files
+# chown -R mysql data mysql-files # 这一步， 如果提示data not such file or dir的话创建data目录
 # bin/mysqld_safe --user=mysql &
 // Next command is optional
 # cp support-files/mysql.server /etc/init.d/mysql.server
@@ -76,11 +76,21 @@ CREATE USER root@'%' IDENTIFIED BY 'Password';
 GRANT all privileges  ON root.* TO 'root'@'%'  identified by 'Password';
 -- 刷新权限
 flush privileges;
+
+-- 创建数据库
+CREATE database database_name;
+-- 创建其他用户
+CREATE USER test IDENTIFIED BY 'Password';
+-- 授权给test用户
+GRANT all privileges ON test.* TO test identified by 'Password';
+-- 刷新权限
+flush privileges;
 ```
 
 
 
 # 错误
+
 > [Err] 1055 - Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'information_schema.PROFILING.SEQ' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
 
 **解决方法**
@@ -89,4 +99,10 @@ flush privileges;
 
 >  lower_case_table_names=1
 >
-> sql_mode='STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION'
+>  sql_mode='STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION'
+
+
+
+## 启动时出错
+
+如果是在Centos下安装的话， 默认就会有一个/etc/my.cnf文件。 里面配置了mariadb的配置， 可以把里面的内容删掉再配置上面的lower_case_table_names=1
