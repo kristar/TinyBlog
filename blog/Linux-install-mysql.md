@@ -65,3 +65,28 @@ Enter password: // 输入刚刚的临时密码
 
 
 
+# 创建用户
+
+创建用户并授权
+
+```mysql
+-- 创建一个可以在任意IP登录的用户
+CREATE USER root@'%' IDENTIFIED BY 'Password';
+-- 授予权限
+GRANT all privileges  ON root.* TO 'root'@'%'  identified by 'Password';
+-- 刷新权限
+flush privileges;
+```
+
+
+
+# 错误
+> [Err] 1055 - Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'information_schema.PROFILING.SEQ' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+
+**解决方法**
+
+/etc/my.cnf 文件最后增加以下两行配置
+
+>  lower_case_table_names=1
+>
+> sql_mode='STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION'
